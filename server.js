@@ -68,7 +68,7 @@ http.createServer(function(req, res) { // request, response
 				if (err) throw err;
 				
 				fs.unlinkSync(__dirname + '/uploadedFiles/' + filename);
-                alert('aaa');
+
 				console.log('File ' + filename + ' was succesfully deleted.');
 				
 			});
