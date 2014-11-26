@@ -1,0 +1,373 @@
+th {
+	text-align: center;
+}
+
+.dragdrop {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    background: #ffffe5;
+    border: 1px dashed #0065a0;
+    border-radius: 9px;
+    font-size: 25px;
+    visibility: visible;
+}
+
+.myTitle {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 0.5cm !important;
+}
+
+.infoTitle {
+   text-align: center;
+   font-weight: bold;
+   margin-top: 10px;
+   margin-bottom: 1cm !important;
+}
+
+.uploadButton{
+    margin-top: 3px;
+    text-align:center;
+}
+
+.addButton {
+    margin-top: 20px;
+}
+
+.removeButton {
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.removeButton:hover{
+    color: #D00000;
+}
+
+.browserElement {
+    display: inline-block!important;
+    margin-bottom: 5px;
+}
+
+.alert-danger {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+    display: none;
+}
+
+.alert-success {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+    display: none;
+}
+
+.progress {
+    display: none;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.progress-bar {
+    width: 0% ;
+}
+
+.progress-title {
+    text-align: center;
+}
+
+.progressBarWrapper {
+
+}
+
+.content {
+	display: none;
+	
+	width: 600px;
+	height: 230px;
+	
+	margin-top: 50px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textLeft {
+	text-align: left;
+}
+
+/* Because I use <a> tag only for formatting, without 'href' attribute */ 
+.deleteLink, .details {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+#mainCont {
+	width: 820px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding-top: 60px;
+}
+
+#buttonsCont {
+	display: inline-block;
+	
+	margin-top: 30px;
+	vertical-align: top;
+}
+
+#contentCont {
+	display: inline-block;
+	
+	text-align: center;
+	
+	width: 650px;
+	height: 350px;
+	
+	margin-left: auto;
+	margin-right: auto;
+			
+	/*background: url(pictures/background_blue.svg);*/
+	background-size: 650px 350px;
+	
+	border: 3px solid #3071a9;
+	border-radius: 20px;
+	
+	padding-top: 10px;
+}
+
+#contentWrapper {
+	height: 330px;
+	width: 630px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	overflow: auto;
+}
+
+#DragDrop {
+
+}
+
+#UploadButon {
+
+}
+
+/*********
+ * MODAL *
+ ********/
+
+.modalWarning {
+	color: red;
+	display: none;	
+	width: 500px;
+}
+
+.modalInputWrapper {
+	width: 250px;
+	margin-left:50px;
+}
+
+.modalInputWrapper input {
+	float: right;
+	clear: both;
+}
+
+#modalDateInput, #modalPasswordInput {
+	height: 20px;
+	width: 140px;
+}
+
+#modalShowCheckbox {
+	vertical-align: text-bottom;
+}
+
+
+/************************
+ * CSS3 loading spinner *
+ ***********************/
+#floatingCirclesG{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:128px;
+height:128px;
+-moz-transform:scale(0.6);
+-webkit-transform:scale(0.6);
+-ms-transform:scale(0.6);
+-o-transform:scale(0.6);
+transform:scale(0.6);
+}
+
+.f_circleG{
+position:absolute;
+background-color:#FFFFFF;
+height:23px;
+width:23px;
+-moz-border-radius:12px;
+-moz-animation-name:f_fadeG;
+-moz-animation-duration:1.04s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:12px;
+-webkit-animation-name:f_fadeG;
+-webkit-animation-duration:1.04s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:12px;
+-ms-animation-name:f_fadeG;
+-ms-animation-duration:1.04s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:12px;
+-o-animation-name:f_fadeG;
+-o-animation-duration:1.04s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:12px;
+animation-name:f_fadeG;
+animation-duration:1.04s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#frotateG_01{
+left:0;
+top:52px;
+-moz-animation-delay:0.39s;
+-webkit-animation-delay:0.39s;
+-ms-animation-delay:0.39s;
+-o-animation-delay:0.39s;
+animation-delay:0.39s;
+}
+
+#frotateG_02{
+left:15px;
+top:15px;
+-moz-animation-delay:0.52s;
+-webkit-animation-delay:0.52s;
+-ms-animation-delay:0.52s;
+-o-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+
+#frotateG_03{
+left:52px;
+top:0;
+-moz-animation-delay:0.65s;
+-webkit-animation-delay:0.65s;
+-ms-animation-delay:0.65s;
+-o-animation-delay:0.65s;
+animation-delay:0.65s;
+}
+
+#frotateG_04{
+right:15px;
+top:15px;
+-moz-animation-delay:0.78s;
+-webkit-animation-delay:0.78s;
+-ms-animation-delay:0.78s;
+-o-animation-delay:0.78s;
+animation-delay:0.78s;
+}
+
+#frotateG_05{
+right:0;
+top:52px;
+-moz-animation-delay:0.91s;
+-webkit-animation-delay:0.91s;
+-ms-animation-delay:0.91s;
+-o-animation-delay:0.91s;
+animation-delay:0.91s;
+}
+
+#frotateG_06{
+right:15px;
+bottom:15px;
+-moz-animation-delay:1.04s;
+-webkit-animation-delay:1.04s;
+-ms-animation-delay:1.04s;
+-o-animation-delay:1.04s;
+animation-delay:1.04s;
+}
+
+#frotateG_07{
+left:52px;
+bottom:0;
+-moz-animation-delay:1.17s;
+-webkit-animation-delay:1.17s;
+-ms-animation-delay:1.17s;
+-o-animation-delay:1.17s;
+animation-delay:1.17s;
+}
+
+#frotateG_08{
+left:15px;
+bottom:15px;
+-moz-animation-delay:1.3s;
+-webkit-animation-delay:1.3s;
+-ms-animation-delay:1.3s;
+-o-animation-delay:1.3s;
+animation-delay:1.3s;
+}
+
+@-moz-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-webkit-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-ms-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-o-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}

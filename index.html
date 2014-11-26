@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+
+	<script src="jquery-2.1.1.js"></script>
+	<script src="jquery-ui.js"></script>
+	
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+	<script src="main.js"></script>
+	<script src="dragDrop.js"></script>
+	<script src="buttonInterface.js"></script>
+	<script src="functions.js"></script>
+	
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	
+	<title>Upload Web Interface</title>
+</head>
+
+<body>
+
+	<!-------------------------------------------------------------------------------------------------------------
+	--- Main container ---
+	--------------------->
+	<div id="mainCont">
+	
+		<!---------------------------------------------------------------------------------------------------------
+		--- Modal ---
+		------------>
+		<div class="modal fade">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h4 class="modal-title">Details</h4>
+		      </div>
+		      <div class="modal-body">
+				<div class="modalInputWrapper">
+		        	Expiration date: <input id="modalDateInput" class="inputDate" type="date" /><br/>
+					Password:<input id="modalPasswordInput" type="password" 
+						pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}" /><br/>
+					Show in search: <input id="modalShowCheckbox" type="checkbox" /><br/>
+				</div>			
+				<div id="modalPasswordWarning" class="modalWarning alert alert-danger" role="alert">
+					Password must be at least 8 characters long and it must contain at least one lower-case letter, 
+					one upper-case letter, one number and one special character (@$!%*?&)! 
+				</div>		        
+				<div id="modalPasswordSuccess" class="alert alert-success" role="alert">
+					Details updated succesfully!
+				</div>
+
+		      </div> 
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button id="modalButton" type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->		
+	
+		<!--------------------------------------------------------------------------------------------------------- 
+		--- Buttons ---
+		-------------->
+		<div id="buttonsCont">
+			<div class="btn-group-vertical">
+			    <button type="button" id="storedFilesButton" class="btn btn-primary active">Stored Files</button>
+			    <button type="button" id="uploadFilesButton" class="btn btn-warning">Upload Files</button>
+			</div>
+		</div>
+	
+		<!------------------------------------------------------------------------------------------------------------
+		--- Content container                  ---
+		---  * in the center of user's monitor ---
+		----------------------------------------->
+		<div id="contentCont">
+		
+			<!--------------------------------------------------------------------------------------------------------
+			--- Content wrapper       ---
+			--- * to control overflow ---
+			---------------------------->
+			<div id="contentWrapper">
+
+				<!----------------------------------------------------------------------------------------------------
+				--- Stored files ---
+				------------------->
+				<div id="storedFiles">
+					<input id="jsonData" type="hidden" value="" />
+				
+					<div class="myTitle">Stored Files</div>
+					
+					<div id="storedItemsTableWrapper"></div>
+				</div>
+			
+				<!----------------------------------------------------------------------------------------------------
+				--- Drag&Drop interface ---
+				-------------------------->
+				<div id="DragDrop" class="content">
+					<div id="DragDropField" class="dragdrop">
+						Drag your files here
+					</div>
+			
+					<div id="ProgressBars"></div>
+			
+					<div class="infoTitle">
+						Or you can switch to
+						<button class="btn btn-primary" onclick="switchInterface()">Classic interface</button>
+					</div>
+			
+					<div id="Warning" class="alert alert-danger" role="alert">
+						You haven't selected any files to upload!
+					</div>
+			
+					<div id="UploadSuccess" class="alert alert-success" role="alert">
+						Files were successfully uploaded.
+					</div>
+				</div>
+			
+				<!----------------------------------------------------------------------------------------------------
+				--- Button interface ---
+				----------------------->
+				<div id="UploadButton" class="content">
+			
+					<div class="myTitle">
+						Here you can upload your files.
+					</div>
+			
+					<div id="InputFields"></div>
+			
+					<button id="Add" class="btn btn-primary addButton">
+						<span class="glyphicon glyphicon-folder-open"></span> Add File
+					</button>
+					<br />
+					<button id="Upload" class="btn btn-success uploadButton" data-loading-text="Uploading...">
+						<span class="glyphicon glyphicon-cloud-upload"></span> Upload Files
+					</button>
+					<br />
+			
+					<div id="Warning2" class="alert alert-danger" role="alert">You
+						haven't selected any files to upload!</div>
+					<div id="UploadSuccess2" class="alert alert-success" role="alert">Files
+						were successfully uploaded.</div>
+				</div>		
+			</div>
+		</div>	
+	</div>
+</body>
+
+</html>

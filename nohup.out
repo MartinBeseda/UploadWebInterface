@@ -1,0 +1,58 @@
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+** (yelp:12064): WARNING **: Failed to get GNOME shell mode: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: Žádná vlastnost „Mode“ neexistuje
+No bp log location saved, using default.
+[000:000] Cpu: 6.42.7, x2, 2200Mhz, 3790MB
+[000:001] Computer model: Not available
+[000:001] Browser XEmbed support present: 1
+[000:001] Browser toolkit is Gtk2.
+[000:003] Using Gtk2 toolkit
+No bp log location saved, using default.
+[000:000] Cpu: 6.42.7, x2, 2200Mhz, 3790MB
+[000:000] Computer model: Not available
+[000:129] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:129] No bp log location saved, using default.
+[000:129] Cpu: 6.42.7, x2, 2200Mhz, 3790MB
+[000:129] Computer model: Not available
+[000:129] Browser XEmbed support present: 1
+[000:129] Browser toolkit is Gtk2.
+[000:129] Using Gtk2 toolkit
+[000:287] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:288] No bp log location saved, using default.
+[000:289] Cpu: 6.42.7, x2, 2200Mhz, 3790MB
+[000:289] Computer model: Not available
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+
+(gedit:10514): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
