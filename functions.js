@@ -1,4 +1,6 @@
 function createStoredFilesTable(){
+	//$('#storedItemsTableWrapper').updatePolyfill();
+	
 	var jsonObj;
 	$.getJSON('/storedFilesList.json').done(function( obj ){ // loading external JSON file with info about stored files
 		$('#storedItemsTableWrapper').empty();

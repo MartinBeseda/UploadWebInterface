@@ -2,7 +2,7 @@ $(window).on('load', function(){
 	
 	createStoredFilesTable();
 
-	$('#storedFilesButton').click(function(){		
+	$('#storedFilesButton').click(function(){
 
 		createStoredFilesTable();
 		
@@ -14,6 +14,7 @@ $(window).on('load', function(){
 	});
 	
 	$('#uploadFilesButton').click(function(){
+		$('#UploadSuccess').hide();
 		
 		$('#contentCont').css('border-color', '#F0AD4E');
 		
